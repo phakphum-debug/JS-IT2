@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: Arial,  sans-serif;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+header{
+    background-color: aqua;
+    color: antiquewhite;
+    padding: 15px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+}
+.calculator

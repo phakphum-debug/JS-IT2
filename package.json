@@ -1,0 +1,29 @@
+{
+  "name": "js-it2",
+  "version": "1.0.0",
+  "description": "for learning node.js to website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phakphum-debug/JS-IT2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/phakphum-debug/JS-IT2/issues"
+  },
+  "homepage": "https://github.com/phakphum-debug/JS-IT2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}

@@ -1,0 +1,11 @@
+const express = require('express');
+const path = require('path');
+const app = express();
+const port = 3000;
+
+// ให้ backend เสิร์ฟไฟล์จากโฟลเดอร์ frontend
+app.use(express.static(path.join(__dirname, '../frontend')));
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
